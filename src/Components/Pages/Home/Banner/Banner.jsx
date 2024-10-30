@@ -5,7 +5,7 @@ const Banner = () => {
         <div className="career-bg ">
             <div className="flex flex-col lg:flex-row max-w-[1320px] items-center justify-between mx-auto mb-[130px] px-4">
                 <div className="w-full lg:w-[670px] text-left">
-                    <h1 className="text-[40px] text-[80px] font-extrabold text-[#1A1919]">
+                    <h1 className="text-[40px] font-extrabold text-[#1A1919]">
                         One Step Closer To Your <span className="text-color">Dream Job</span>
                     </h1>
                     <p className="text-base lg:text-lg font-medium text-[#757575]">
