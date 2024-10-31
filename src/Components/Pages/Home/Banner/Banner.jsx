@@ -2,24 +2,24 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className="career-bg ">
-            <div className="flex flex-col lg:flex-row max-w-[1320px] items-center justify-between mx-auto mb-[130px] px-4">
-                <div className="w-full lg:w-[670px] text-left">
-                    <h1 className="text-[40px] font-extrabold text-[#1A1919]">
-                        One Step Closer To Your <span className="text-color">Dream Job</span>
-                    </h1>
-                    <p className="text-base lg:text-lg font-medium text-[#757575]">
-                        Explore thousands of job opportunities with all the information you need to secure your future. Come find it. Manage all your job applications from start to finish.
-                    </p>
-                    <button className="career-btn mt-8 px-6 py-3 text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition duration-300">
-                        Get Started
-                    </button>
-                </div>
-                <div className="mt-8 lg:ml-8">
-                    <img src={`/images/user.png`} alt="User" className="" />
-                </div>
+        <div>
+        <div className="flex max-w-[1320px] items-center justify-center xl:mx-auto lg:mx-2 mx-3  mb-[130px]">
+            <div className="w-[670px] text-left ">
+                <h1 className=" xl:!leading-[100px] lg:!leading-[80px] md:leading-[60px]  xl:text-[80px] lg:text-6xl md:text-4xl text-xl  font-extrabold text-[#1A1919] md:mb-6">
+                    One Step Closer To Your <span className="text-color">Dream Job</span>
+                </h1>
+                <p className="lg:text-lg md:text-sm text-[8px] font-medium text-[#757575]">
+                    Explore thousands of job opportunities with all the information you need to secure your future. Come find it. Manage all your job applications from start to finish.
+                </p>
+                <button className="career-btn mt-8 lg:!text-xl md:!text-base !text-xs md:!px-7 md:!py-[19px] !px-4 !py-3">
+                    Get Started
+                </button>
+            </div>
+            <div className="mt-[41px]">
+                <img src={`/images/user.png`} alt="" />
             </div>
         </div>
+    </div>
     );
 };
 

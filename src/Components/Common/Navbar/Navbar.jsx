@@ -52,7 +52,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="career-btn">Start Applying</button>
+                    <button className="career-btn lg:!text-xl md:!text-base !text-xs md:!px-7 md:!py-[19px] !px-4 !py-3">Start Applying</button>
                 </div>
             </div>
         </div>
