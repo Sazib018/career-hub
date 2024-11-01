@@ -6,6 +6,6 @@ import { route } from './Components/Route/Route';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={route} />
+    <RouterProvider router={route} ></RouterProvider>
   </StrictMode>
 );
