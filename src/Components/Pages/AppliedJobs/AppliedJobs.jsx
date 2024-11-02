@@ -11,7 +11,7 @@ const AppliedJobs = () => {
 
     return (
         <div>
-            <h1 className='text-4xl font-bold'>Applied Jobs: {appliedJobs.length}</h1>
+            <h1 className='text-4xl font-bold text-center'>Applied Jobs: {appliedJobs.length}</h1>
         </div>
     );
 };
