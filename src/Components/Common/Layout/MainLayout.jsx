@@ -7,7 +7,7 @@ import Footer from '../Footer/Footer';
 const MainLayout = () => {
     return (
         <div>
-            <div className=' relative'>
+            <div className='career-bg relative'>
                 <Navbar></Navbar>
             </div>
             <div className=''>
